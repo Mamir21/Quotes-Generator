@@ -4,12 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Quote Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      text-align: center;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    #quoteDisplay {
+      font-size: 24px;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 3px solid #ddd;
+      border-radius: 10px;
+    }
+    
+    button {
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      outline: none;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    .container > * {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div id="quoteDisplay">
+  <div class="container">
+    <div id="quoteDisplay"></div>
 
-</div>
-  <button onclick="generateQuote()">Generate Quote</button>
+    <button onclick="generateQuote()">Generate Quote</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
