@@ -37,7 +37,6 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Additional space for better readability */
 .container > * {
   margin-bottom: 20px;
 }
