@@ -18,7 +18,17 @@ const quotes = [
   ]
   
   function generateQuote() {
+    const quoteDisplay = document.getElementById("quoteDisplay")
+    if (!quoteDisplay) {
+      console.error("Quote display element not found!")
+      return
+    }
     const randomIndex = Math.floor(Math.random() * quotes.length)
     const randomQuote = quotes[randomIndex]
-    document.getElementById("quoteDisplay").textContent = randomQuote
+    quoteDisplay.textContent = randomQuote
   }
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const generateButton = document.querySelector("button")
+    generateButton.addEventListener("click", generateQuote)
+  })
