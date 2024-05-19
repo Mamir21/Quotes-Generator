@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-This is a simple web application that generates random quotes when a button is clicked. It's a small project to showcase basic JavaScript skills.
+This is a simple web application that generates random quotes when a button is clicked. It's a small project to showcase basic JavaScript skills. 
 
 ## Usage
 
