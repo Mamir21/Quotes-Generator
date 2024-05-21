@@ -6,7 +6,7 @@ const quotes = [
   "The only impossible journey is the one you never begin. – Tony Robbins",
   "Believe you can and you're halfway there. – Theodore Roosevelt",
   "In the midst of chaos, there is also opportunity. – Sun Tzu",
-  "The best way to predict the future is to invent it. – Alan Kay",
+  "The best way to predict the future is to invent it. – Alan Kay", 
   "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
   "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
   "It does not matter how slowly you go as long as you do not stop. – Confucius",
