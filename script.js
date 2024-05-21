@@ -14,7 +14,13 @@ const quotes = [
   "You miss 100% of the shots you don't take. – Wayne Gretzky",
   "Happiness is not something readymade. It comes from your own actions. – Dalai Lama",
   "The only person you are destined to become is the person you decide to be. – Ralph Waldo Emerson",
-  "The only way to achieve the impossible is to believe it is possible. – Charles Kingsleigh (Alice in Wonderland)"
+  "The only way to achieve the impossible is to believe it is possible. – Charles Kingsleigh (Alice in Wonderland)",
+  "The secret of getting ahead is getting started. – Mark Twain",
+  "Everything you’ve ever wanted is on the other side of fear. – George Addair",
+  "Do what you can, with what you have, where you are. – Theodore Roosevelt",
+  "Dream as if you'll live forever. Live as if you'll die today. – James Dean",
+  "Perseverance is not a long race; it's many short races one after the other. – Walter Elliot",
+  "What lies behind us and what lies before us are tiny matters compared to what lies within us. – Ralph Waldo Emerson"
   ]
   
   function generateQuote() {
