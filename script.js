@@ -9,7 +9,7 @@ const quotes = [
   "The best way to predict the future is to invent it. – Alan Kay", 
   "Success is not final, failure is not fatal: It is the courage to continue that counts. – Winston Churchill",
   "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
-  "It does not matter how slowly you go as long as you do not stop. – Confucius",  
+  "It does not matter how slowly you go as long as you do not stop. – Confucius",   
   "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt", 
   "You miss 100% of the shots you don't take. – Wayne Gretzky",
   "Happiness is not something readymade. It comes from your own actions. – Dalai Lama",
