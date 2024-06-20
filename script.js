@@ -21,20 +21,50 @@ const quotes = [
   "Dream as if you'll live forever. Live as if you'll die today. – James Dean",
   "Perseverance is not a long race; it's many short races one after the other. – Walter Elliot",
   "What lies behind us and what lies before us are tiny matters compared to what lies within us. – Ralph Waldo Emerson"
-  ]
-  
-  function generateQuote() {
-    const quoteDisplay = document.getElementById("quoteDisplay")
-    if (!quoteDisplay) {
-      console.error("Quote display element not found!")
-      return
-    }
-    const randomIndex = Math.floor(Math.random() * quotes.length)
-    const randomQuote = quotes[randomIndex]
-    quoteDisplay.textContent = randomQuote
+];
+
+function generateQuote() {
+  const quoteDisplay = document.getElementById("quoteDisplay");
+  if (!quoteDisplay) {
+    console.error("Quote display element not found!");
+    return;
   }
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const randomQuote = quotes[randomIndex];
+  quoteDisplay.textContent = randomQuote;
+  quoteDisplay.style.opacity = 0;
+  setTimeout(() => {
+    quoteDisplay.style.opacity = 1;
+  }, 100);
+}
+
+function copyQuote() {
+  const quoteDisplay = document.getElementById("quoteDisplay");
+  if (quoteDisplay) {
+    navigator.clipboard.writeText(quoteDisplay.textContent).then(() => {
+      alert("Quote copied to clipboard!");
+    }).catch(err => {
+      console.error("Failed to copy: ", err);
+    });
+  }
+}
+
+function tweetQuote() {
+  const quoteDisplay = document.getElementById("quoteDisplay");
+  if (quoteDisplay) {
+    const quote = quoteDisplay.textContent;
+    const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(quote)}`;
+    window.open(tweetUrl, "_blank");
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const generateButton = document.getElementById("generateButton");
+  generateButton.addEventListener("click", generateQuote);
   
-  document.addEventListener("DOMContentLoaded", function () {
-    const generateButton = document.querySelector("button")
-    generateButton.addEventListener("click", generateQuote)
-  })
+  const copyButton = document.getElementById("copyButton");
+  copyButton.addEventListener("click", copyQuote);
+
+  const tweetButton = document.getElementById("tweetButton");
+  tweetButton.addEventListener("click", tweetQuote);
+});
