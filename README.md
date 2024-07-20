@@ -33,6 +33,10 @@ You can customize this application by:
 - Adding or modifying quotes in the `quotes` array in `script.js`.
 - Modifying the CSS in `styles.css` to change the appearance of the application.
 
+Here is a screenshot of the quotes page:
+
+.
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
