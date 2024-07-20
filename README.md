@@ -35,7 +35,7 @@ You can customize this application by:
 
 Here is a screenshot of the quotes page:
 
-.
+![image](https://github.com/user-attachments/assets/4e3f6387-7aac-4944-8093-7a28ddc3dc6f)
 
 ## License
 
