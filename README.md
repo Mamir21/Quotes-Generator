@@ -2,6 +2,10 @@
 
 This is a simple web application that generates random quotes when a button is clicked. It's a small project to showcase basic JavaScript skills. 
 
+## Demo
+
+![image](https://github.com/user-attachments/assets/4e3f6387-7aac-4944-8093-7a28ddc3dc6f)
+
 ## Usage
 
 To use this application, follow these steps:
@@ -32,10 +36,6 @@ You can customize this application by:
 
 - Adding or modifying quotes in the `quotes` array in `script.js`.
 - Modifying the CSS in `styles.css` to change the appearance of the application.
-
-Here is a screenshot of the quotes page:
-
-![image](https://github.com/user-attachments/assets/4e3f6387-7aac-4944-8093-7a28ddc3dc6f)
 
 ## License
 
