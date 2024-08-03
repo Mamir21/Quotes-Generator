@@ -6,7 +6,7 @@ This is a simple web application that generates random quotes when a button is c
 
 ![image](https://github.com/user-attachments/assets/4e3f6387-7aac-4944-8093-7a28ddc3dc6f)
 
-## Usage
+## Installation
 
 To use this application, follow these steps:
 
