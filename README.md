@@ -4,7 +4,7 @@ This is a simple web application that generates random quotes when a button is c
 
 ## Demo
 
-
+![image](https://github.com/user-attachments/assets/fbb4498e-019b-4f8a-a31a-14cc684a9c9c)
 
 ## Installation
 
